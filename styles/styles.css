@@ -67,3 +67,31 @@ h1{
         text-decoration: none;
         color:white;
     }
+    /**why-web-development**/
+
+    .why-web-development{
+        width:80%;
+        margin:40px auto;
+        padding:20px;
+        text-align: center;
+        background-color: #fafafb;
+    }
+    .why-web-development>p {
+        padding:20px 10%;
+    }
+    .sub-section-contaner{
+        display:flex;
+        justify-content: space-between;
+        gap:10%;
+    }
+    .sub-section{
+        display:flex;
+        justify-content: space-between;
+        width:80%;
+    }
+    .text-sub-section{
+        width:60%;
+    }
+    .img-sub-section{
+        width:30%;
+    }
