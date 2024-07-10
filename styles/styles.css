@@ -16,8 +16,9 @@
 
 /*Shared Styles*/
 .title{
-    font-size: 28px;
-    font-weight: bolder;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
 }
 .btn-primary{
 padding:10px 20px;
@@ -27,6 +28,7 @@ border-radius: 5px;
 }
 .desc-texts{
 font-size: 11px;
+padding:20px 40px;
 }
 
 /*Header Styles*/
@@ -82,16 +84,50 @@ h1{
     .sub-section-contaner{
         display:flex;
         justify-content: space-between;
-        gap:10%;
+        flex-direction: column;
+        margin:40px
     }
     .sub-section{
         display:flex;
         justify-content: space-between;
         width:80%;
+        margin:auto;
     }
     .text-sub-section{
+        background-color: white;
         width:60%;
-    }
+        text-align: left;
+       align-items: center;
+        padding:50px 0;
+        margin-bottom: 40px;
+        }
     .img-sub-section{
         width:30%;
     }
+
+    /**My Ispiration Section**/
+.my-inspiration{
+    text-align: center;
+    width:80%;
+    margin:0 auto;
+}
+
+.my-inspiration video{
+    text-align: center;
+    width:90%;
+    margin:40px 5%;
+    border:2px solid #0D1321;
+    padding:15px;
+    border-radius: 10px;
+}
+
+/**Target Section**/
+
+.current-target{
+    width:80%;
+    margin:40px auto;
+}
+
+.skill-container{
+    display:flex;
+}
